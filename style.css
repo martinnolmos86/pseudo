@@ -1,0 +1,9 @@
+button:hover {
+  background-color: green;
+  color: white;
+}
+button:hover::after {
+  content: "¡Hecho!";
+  color: #fff;
+  background-color: green;
+}
